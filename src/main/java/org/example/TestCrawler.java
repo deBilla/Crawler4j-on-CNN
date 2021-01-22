@@ -50,9 +50,6 @@ public class TestCrawler extends WebCrawler{
         if (page.getParseData() instanceof HtmlParseData) {
             HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
             String title = htmlParseData.getTitle();
-            String text = htmlParseData.getText();
-            String html = htmlParseData.getHtml();
-            Set<WebURL> links = htmlParseData.getOutgoingUrls();
             pageNumber++;
 
             //Write content to file

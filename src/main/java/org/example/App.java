@@ -12,8 +12,8 @@ public class App
 {
     public static void main(String[] args) throws Exception {
 
-        final int MAX_CRAWL_DEPTH = 1;
-        final int NUMBER_OF_CRAWELRS = 2;
+        final int MAX_CRAWL_DEPTH = 3;
+        final int NUMBER_OF_CRAWELRS = 8;
         final String CRAWL_STORAGE = "/home/dimuthuw/MSC/crawl-data";
 
         /*
